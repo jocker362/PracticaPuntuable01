@@ -9,6 +9,7 @@ public class Practica {
         int fuertes[] = new int[10];
         int counter = 0;
         Scanner teclado = new Scanner(System.in);
+        System.out.println("Introduce los valores: ");
 
         //Añadimos los valores al Array de numeros
         for (int i = 0; i < 10; i++) {
@@ -30,6 +31,7 @@ public class Practica {
                 counter++;
             }
         }
+        //Añade el ultimo valor del array al array de numeros Fuertes
         fuertes[counter] = numeros[numeros.length-1];
 
 
